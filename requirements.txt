@@ -1,0 +1,8 @@
+streamlit
+numpy
+plotly
+sympy
+pandas
+Pillow
+scipy
+textblob 
