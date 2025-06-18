@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # Encode video as base64 with error handling
-video_path = r"C:\Users\mjhus\Downloads\3129977-uhd_3840_2160_30fps.mp4"
+video_path = r"D:\Github\Publication\gradient\3129977-uhd_3840_2160_30fps.mp4"
 video_base64 = ""
 try:
     if os.path.exists(video_path):
