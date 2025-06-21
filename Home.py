@@ -9,8 +9,9 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# Encode video as base64 with error handling
-video_path = r"D:\Github\Publication\gradient\3129977-uhd_3840_2160_30fps.mp4"
+# video_path = "https://3129977-uhd_3840_2160_30fps.mp4"
+# video_path = r"D:\Github\Publication\gradient\3129977-uhd_3840_2160_30fps.mp4"
+video_path = "3129977-uhd_3840_2160_30fps.mp4"
 video_base64 = ""
 try:
     if os.path.exists(video_path):
